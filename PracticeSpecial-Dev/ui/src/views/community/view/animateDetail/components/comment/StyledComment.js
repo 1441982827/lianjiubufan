@@ -1,0 +1,57 @@
+import styled from 'styled-components'
+
+const FooterContainer = styled.footer `
+position:fixed;
+width:100%;
+height:.45rem;
+bottom:0;
+display:flex;
+padding-left:.15rem;
+align-items:center;
+background:#fff;
+z-index:9999;
+div{
+  width:1.38rem;
+  height:.35rem;
+  border-radius:.18rem;
+  overflow:hidden;
+  position:relative;
+  p{
+    width:100%;
+    height:100%;
+    font-size:.12rem;
+    color:#999;
+    background:#eee;  
+    padding-left:.32rem;
+    line-height:.35rem;
+  }
+  span{
+    position:absolute;
+    left:.1rem;
+    top:0;
+    bottom:0;
+    margin:auto;
+  }
+}
+ul{
+  flex:1;
+  height:100%;
+  padding-left:.15rem;
+  display:flex;
+  li{
+    flex:1;
+    line-height:.35rem;
+    display:flex;
+    align-items:center;
+    i{
+      margin-left:.03rem;
+      margin-top:-.1rem;
+      font-size:.09rem;
+      line-height:.12rem;
+    }
+  }
+}
+`
+export{
+  FooterContainer
+}

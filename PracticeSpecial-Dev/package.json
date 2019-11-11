@@ -1,0 +1,19 @@
+{
+  "name": "practice_special_dev",
+  "version": "1.0.0",
+  "description": "练就非凡前端项目",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "nodemon ./service/bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/iridescent-cloud/PracticeSpecial-Dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

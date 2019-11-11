@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "requiredBackgroundModes": [
+    "audio",
+    "location"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e48097",
+    "navigationBarTitleText": "练就非凡App",
+    "navigationBarTextStyle": "white"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "运动app 运动定位"
+    },
+    "scope.userLocationBackground": {
+      "desc": "运动app 运动定位"
+    }
+  },
+  "sitemapLocation": "sitemap37.json"
+}

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var _mobx=require("../npm/mobx/lib/mobx.js"),counterStore=(0,_mobx.observable)({counter:0,counterStore:function(){this.counter++},increment:function(){this.counter++},decrement:function(){this.counter--},incrementAsync:function(){var e=this;setTimeout(function(){e.counter++},1e3)}});exports.default=counterStore;

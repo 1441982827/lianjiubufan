@@ -1,0 +1,28 @@
+<<<<<<< HEAD
+<block wx:if="{{$taroCompReady}}"><view class="index"><map scale="{{20}}" show-location="true" latitude="{{latitude}}" longitude="{{longitude}}" polyline="{{anonymousState__temp}}"></map><view><view class="item"><view class="warper"><text>音乐</text><view class="content"><switch></switch></view></view>  </view><view class="item"><view class="warper"><text>添加计划</text><view class="content"><image src="http://wydawn.club/images/icon/right_black.png"></image></view></view></view> <view class="bt-warper"><button class="start" bindtap="run" data-e-tap-so="this">开始徒步 </button></view></view></view></block>
+=======
+<block wx:if="{{$taroCompReady}}">
+    <view class="index">
+        <map scale="{{20}}" show-location="true" latitude="{{latitude}}" longitude="{{longitude}}" enable-overlooking="{{true}}" polyline="{{anonymousState__temp}}"></map>
+        <view>
+            <view class="item">
+                <view class="warper"><text>音乐</text>
+                    <view class="content">
+                        <switch bindchange="musicChange" data-e-change-so="this"></switch>
+                    </view>
+                </view>
+            </view>
+            <view class="item">
+                <view class="warper"><text>添加计划</text>
+                    <view class="content">
+                        <image src="http://wydawn.club/images/icon/right_black.png"></image>
+                    </view>
+                </view>
+            </view>
+            <view class="bt-warper">
+                <button class="start" bindtap="run" open-type="getUserInfo" data-e-tap-so="this">{{run ? '暂停' : '开始'}}</button>
+            </view>
+        </view>
+    </view>
+</block>
+>>>>>>> bb275365ead769427bee37d3112f8d57c5fdf650

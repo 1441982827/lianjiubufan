@@ -1,0 +1,5 @@
+{
+  "/api/community/user":"/user",
+  "/api/community/adduser":"/adduser",
+  "/api/community/commlist":"/commlist"
+}

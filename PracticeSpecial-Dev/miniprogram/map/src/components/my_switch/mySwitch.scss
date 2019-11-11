@@ -1,0 +1,45 @@
+.switch-wrap {
+  width: 68px;
+  height: 34px;
+}
+
+/* 设置 checkbox 不显示 */
+input {
+  display: none;
+}
+
+/* 设置 label 标签为椭圆状 */
+label {
+  display: block;
+  background-color: #adadad;
+  width: 68px;
+  height: 28px;
+  border-radius: 14px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* 在 label 标签内容之前添加如下样式，形成一个未选中状态 */
+label:before {
+  content: '';
+  display: block;
+  border-radius: 50%;
+  height: 34px;
+  width: 34px;
+  background: #eee;
+  position: absolute;
+  left: 0;
+  top: 1.5px;
+  transition: all 0.3s ease;
+}
+
+/* 选中后 label 的背景色改变 */
+input:checked label {
+  background-color: #b4b8ff;
+}
+
+/* 选中后，未选中样式消失 */
+input:checked label:before {
+  left: 34px;
+  background: #6b72ff;
+}
