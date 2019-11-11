@@ -38,19 +38,19 @@
 
 
 
-- 2019-10-17
+- 2019-3-17
 
 >  更新 FUI组件Version 1.0.2
 >
 >  描述：**增加 Swich 和 VideioPlayer 组件**
 
-- 2019-10-15
+- 2019-3-15
 
 >  更新 FUI组件Version 1.0.1
 >
 >  描述：**更新Button** 
 
-- 2019-10-14
+- 2019-3-14
 
 >  更新 FUI组件Version 1.0.0 
 >
@@ -58,7 +58,7 @@
 
 - 组件文档
 
-> Time :  2019-10-9 PM
+> Time :  2019-3-9 PM
 >
 > 功能：增加多组件
 >
@@ -66,7 +66,7 @@
 
 - 点聚页面|time 
 
-> Time :  2019-10-8 PM
+> Time :  2019-3-8 PM
 >
 > Author: zm
 >
@@ -79,7 +79,7 @@
 
 - 计划页面
 
-> Time :  2019-10-8 AM
+> Time :  2019-3-8 AM
 >
 > Author: hwj
 >
@@ -87,7 +87,7 @@
 
 - 登录注册页面 |公共样式添加 |增加Hash路由
 
-> Time :  2019-10-7 PM
+> Time :  2019-3-7 PM
 >
 > Author: zwy
 >
@@ -150,7 +150,7 @@
 
 - Container 组件开发
 
-> Time :  2019-09-29 AM
+> Time :  2019-02-25AM
 >
 > Author: lhx
 >
@@ -171,7 +171,7 @@
 
 - TabBar组件开发
 
-> Time :  2019-09-28 PM
+> Time :  2019-02-24 PM
 >
 > Author:hanweijing
 >
