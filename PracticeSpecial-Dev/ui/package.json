@@ -6,7 +6,7 @@
     "@babel/plugin-proposal-decorators": "^7.6.0",
     "antd-mobile": "^2.3.1",
     "async": "^3.1.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "better-scroll": "^1.15.2",
     "core-decorators": "^0.20.0",
     "echarts": "^4.3.0",
